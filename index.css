@@ -104,7 +104,10 @@
     background-image: url("./kutty.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translate(0px,20px);
 }
 .middle1{
     height: 150px;
@@ -225,7 +228,7 @@
 }
 .ourwork{
     min-height: 100px;
-    min-width: 1000px;
+    width: 1000px;
     background-color: aliceblue;
     color: black;
     padding-left: 300px;
@@ -235,10 +238,11 @@
     justify-content: center;
 }
 #support{
-    padding-left: 400px;
+    transform: translate(280px,0px);
     padding-top: 40px;
 }
 #support1{
+    transform: translate(-100px,0px);
     padding-bottom: 5px;
 }
 .body{
@@ -563,14 +567,17 @@ td{
     width: 410px;
     background-color: #ff5100;
     border: 3px solid white;
-    transform: translate(-2px,-193px);
     border-radius: 5px;
 }
 .overall{
+    height: 175px;
+    width: 1250px;
     display: flex;
     flex-direction: row;
     justify-content: center;
     color: white;
+    transform: translate(-3px,-193px);
+    background-color:whitesmoke;
 }
 .empty{
     height:120px;
